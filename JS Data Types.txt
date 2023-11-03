@@ -1,0 +1,23 @@
+DATA TYPES
+
+The type of data that a variable can store 
+
+There are two types of Data Types
+
+PRIMITIVE (snb)^2
+
+-string
+-symbol
+-number
+-null
+-boolean
+
+
+
+
+
+NON-PRIMITIVE
+
+-objects  (let,const,var)
+-arrays
+-reg exp

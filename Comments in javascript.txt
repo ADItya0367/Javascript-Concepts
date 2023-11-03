@@ -1,0 +1,25 @@
+Comments in javascript -
+
+Single line comments
+Multi Line Comments 
+
+
+<script>
+//single line comments 
+function msg()
+{
+  alert("i wanna dance")
+}
+</script>
+
+
+
+<script>
+/*Multi line 
+comments*/ 
+function msg()
+{
+  alert("i wanna dance")
+}
+</script>
+

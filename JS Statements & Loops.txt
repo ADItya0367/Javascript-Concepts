@@ -1,0 +1,23 @@
+Statements in javascript are defined as the conditions that are used to perform certain operations
+
+If
+
+If Else
+
+If Else If 
+
+
+
+Loops In Javascript are defined as that if we want to repeat certain conditions Then we will use Loop
+
+
+
+FUNCTIONS IN JAVASCRIPT
+
+<script>
+function msg()
+{
+ alert("This is a function calling")
+}
+</script>
+<input type="button" value="click" onclick="msg()"/>

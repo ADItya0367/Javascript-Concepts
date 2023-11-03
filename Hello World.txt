@@ -1,0 +1,13 @@
+<script>
+document.write("Hello World")
+</script>
+
+here script denote that we are using javascript
+work of document.write is to display dynamic content through js
+
+
+We can also specify the type of script , which informs the browser that we are using the text document
+
+<script type="text">
+document.write("Hello World")
+</script>

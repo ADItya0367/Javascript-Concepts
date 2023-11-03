@@ -1,0 +1,17 @@
+External Javascript can be embedded in two ways -
+
+1-Either you can use <script src="./">
+2-Else you can right click on js file and copy the path and paste it inside the ./
+
+
+
+<html>
+<head>
+<script src="./">
+</head>
+<body>
+<p> Hello World </p>
+<form>
+<input type="button" value="click" onclick="msg()"/>
+</form>
+</body>

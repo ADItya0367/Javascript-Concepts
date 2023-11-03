@@ -1,0 +1,70 @@
+Variables can be defined as the name of the memory location 
+
+Rules are as follows -
+
+we can use 
+a-z
+A-Z
+0-9
+$
+_
+
+Other Rules are-
+
+We can start from alphabet
+we can start from underscore
+we can start from $ 
+we cannot start from numbers 
+
+
+example 
+
+<script>
+var x=10;
+var y=20;
+var z=x+y;
+document.write(z);
+</script>
+
+============================================================================================================================
+
+Global & Local Variable
+
+local variable means values/variable is defined inside the function only
+Global Variable means values/Variable is defined outside the function and is called  through window.object
+
+
+
+Local variable Example
+
+<script>
+var x=10;
+document.write(x);
+</script>
+
+
+
+Global Variable Example
+
+<html>
+<head>
+var x=9;
+<script src= "./">
+</head>
+<body>
+document.write(window.x)
+</body>
+</html>
+
+
+
+OR 
+
+
+<script>
+var x=50;
+function msg()
+{
+ alert(window.x);
+}
+</script>

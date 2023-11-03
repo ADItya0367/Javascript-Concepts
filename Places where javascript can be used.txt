@@ -1,0 +1,34 @@
+Look Javascript code can be used at different places
+ 
+1-Inside the Head- here we are defining the js inside the head tag and in order to do that we have to call the function and for calling we have to use events , here using the Onclick Events and events are mainly specified inside the forms see below .and is declared inside the body tag
+
+
+
+<html>
+<head>
+function msg()
+{
+  alert("This is an example of Head Js")
+}
+</head>
+<body>
+<form>
+<input type="button" value="click"onclick="msg()"/>
+</form>
+<p> Welcome to My World </p>
+</body>
+</html>
+
+
+2-Inside the Body
+
+<html>
+<head>
+</head>
+<body>
+function msg()
+{
+  alert("This is an example of Body js ")
+}
+</body>
+</html>

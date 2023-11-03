@@ -1,0 +1,11 @@
+The Different types of operators are as follows-
+
+(ACBLAS)
+
+Arithematic   -- (+ ,-,++,--,*,/)
+Comparision(Relational)  -- (==,<,>,!=,<=,>=)
+Bitwise -- (&, |,<<,>>)
+Logical -- (&&, || )
+Assignment -- (+=,-=,*=)
+Special -- (new, typeof,void,yield)
+
