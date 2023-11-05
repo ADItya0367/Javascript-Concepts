@@ -1,0 +1,90 @@
+--Javascript BOM mainly stands for Browser Object Model  whose main work is to create a window object for browser , javascrpit object is date,arrays & etc...
+
+--BoM is not a javascript object it is a browser object and we can use different methods with it like
+
+WINDOW OBJECT METHODS
+
+
+(1)   
+
+
+alert()-shows a message with ohk button 
+  
+  <script type="text">
+   function msg()
+{
+  alert("Hello World");
+ }
+ 
+  </script> 
+  <input type="button"value="click"onclick="msg()"/>
+
+(2)
+
+
+confirm()-this method mainly shows the message with ohk and cancel button as like
+
+<script>
+var s= confirm("Are you Sure Berother ?");
+if(s==true)
+{
+alert("ohk");
+}
+else 
+{
+ alert("cancel");
+}
+
+<script/>
+<input type="button" value="click"onclick="msg()"/>
+
+
+(3)
+
+
+prompt()- a method that is mainly used to show message but before that it takes an input of any kind like 
+
+
+<script>
+
+function msg()
+{
+var v=prompt("Who You Are ?");
+ alert("I am " + v);
+}
+</script>
+
+<input type="button"value="click Me"onclick="msg()"/>
+
+(4)
+
+open()-this method is used to display the content in a new window as like this
+
+ <script>
+function msg()
+{
+ open("http://www.codepect.com");
+}
+</script>
+<input type="button"value="click"onclick="msg()"/>
+
+(5)
+
+
+setTimeout()-This method in javascript is mainly used for do a particular task after given time (sec/millisecond)
+
+<script>
+ function msg()
+ {
+  setTimeout(
+  function()
+  {
+  alert("Hello Aditya after 3 second")
+  }
+  ,2000)}
+
+</script>
+
+<input type="button"value="click"onclick="msg()"/>
+
+
