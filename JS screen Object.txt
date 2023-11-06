@@ -1,0 +1,57 @@
+Javascript screen object mainly used to display the information about the screen details like height , width and etc...
+it is a window property hence it can be accessed through 
+
+window.screen
+
+PROPERTIES OF JAVASCRIPT SCREEN OBJECT
+--------------------------------------
+
+(1)  WIDTH()
+
+Returns the width of the screen
+
+<script>  
+document.writeln("<br/>screen.width: "+screen.width); 
+</script> 
+
+(2)  HEIGHT()
+
+Returns the Height of the screen
+
+<script>  
+document.writeln("<br/>screen.width: "+screen.height);
+</script>  
+
+(3)  AVAILHEIGHT()
+
+Returns the available height of the screen
+
+<script>  
+document.writeln("<br/>screen.width: "+screen.availheight);
+</script>  
+
+(4)  AVAILWIDTH()
+
+Returns the available Width of the Screen
+
+<script>  
+document.writeln("<br/>screen.width: "+screen.availwidth);
+</script>
+  
+
+(5)  PIXELDEPTH()
+
+Returns the Depth of the Pixel
+
+<script>  
+document.writeln("<br/>screen.width: "+screen.pixeldepth);
+</script>  
+
+(6)  COLORDEPTH()
+
+Returns the Depth of the color
+
+<script>  
+document.writeln("<br/>screen.width: "+screen.colordepth); 
+</script>
+
