@@ -1,0 +1,65 @@
+Th document object Method in Javascript is mainly used to maintain the HTML Document. when the HTML Document is loaded in mthe browser then it is automatically called as Document html
+
+it has Properties and Methods and can be used to add Dynamic Content to The Browser and as it is a window object hence it can be accessed through window object
+
+window.document
+
+
+DEFINITION= "The W3C Document Object Model (DOM) is a platform and language-neutral interface that allows programs and scripts to dynamically access and update the content, structure, and style of a document."
+
+
+METHODS OF DOCUMENT OBJECT MODEL
+--------------------------------
+
+(1)  Write("string")   -- used to write given string on document
+
+
+
+
+(2) Writeln("string")  --used to write given string on document in next line 
+
+
+
+
+(3) getElementById()   -- used to get the id of specified Element 
+
+
+
+(4) getElementByName() -- returns all the elements having the given name value.
+
+
+
+(5) getElementByClassName()--returns all the elements having the given class name value.
+
+
+
+(6) getElementByTagName()--returns all the elements having the given Tag name value.
+
+
+
+Accessing field value by document object
+
+
+Here, document is the root element that represents the html document
+form1 is the name of the form.
+
+name is the attribute name of the input text.
+
+value is the property, that returns the value of the input text.
+
+
+
+<script>
+function msg()
+{
+ var name=document.form.name.value;
+ alert("Welcome"+name);
+}
+</script>
+
+<form >
+Your Name:
+<input type="text"name="name"/>
+<input type="button"value ="printname"onclick="msg()">
+</form>
+
