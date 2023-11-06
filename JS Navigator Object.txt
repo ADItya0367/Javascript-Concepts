@@ -1,0 +1,117 @@
+Javascript Navigator is mainly a object that is used to get the information about the Browser & the user agent 
+Navigator is a Window property hence it can be accessed by using
+
+ window.navigator
+
+
+
+PROPERTIES OF JAVASCRIPT NAVIGATOR OBJECT
+-----------------------------------------
+
+
+(1)  appName()-returns the name of app
+
+
+<script>
+let browser = navigator.appName;
+document.getElementById("demo").innerHTML = "Browser Name: " + browser;
+</script>
+
+
+
+(2)  appVersion()-returns the version of the app
+
+
+<script>
+let browser = navigator.appVersion;
+document.getElementById("demo").innerHTML = "Browser Version: " + browser;
+</script>
+
+
+(3)  appCodeName()-returns thecode of the app
+
+
+<script>
+let browser = navigator.appCodeName;
+document.getElementById("demo").innerHTML = "Browser Name: " + browser;
+</script>
+
+
+(4)  cookieEnabled()-returns true if cookie is enabled
+
+
+<script>
+let browser = navigator.cookieEnabled;
+document.getElementById("demo").innerHTML = Is there any Cookie settings on browser ? : " + browser;
+</script>
+
+
+(5)  userAgent()-returns the user agent
+
+<script>
+let browser = navigator.userAgent;
+document.getElementById("demo").innerHTML = "Name of the user agent is: " + browser;
+</script>
+
+
+(6)  userLanguage()-returns the Language of user , supported by only netscape navigator & firefox
+
+<script>
+let browser = navigator.userLanguage;
+document.getElementById("demo").innerHTML = "user Language is : " + browser;
+</script>
+
+
+(7)  plugins()-returns the plugin , supported by netscape & firefox
+
+<script>
+let browser = navigator.plugin;
+document.getElementById("demo").innerHTML = "Currently available plugin is: " + browser;
+</script>
+
+
+(8)  systemLanguage()- returns the system Language , supported by internet explorer only
+
+<script>
+let browser = navigator.systemLanguage;
+document.getElementById("demo").innerHTML = "system language is : " + browser;
+</script>
+
+
+(9)  platform()-returns the platform weather win32 or win64
+
+
+<script>
+let browser = navigator.platform;
+document.getElementById("demo").innerHTML = "current running platform is: " + browser;
+</script>
+
+
+(10) online()-returns true if browser is online 
+
+
+<script>
+let browser = navigator.online;
+document.getElementById("demo").innerHTML = "Browser is online or offline ?: " + browser;
+</script>
+
+
+
+METHODS OF JAVASCRIPT NAVIGATOR OBJECT
+-----------------------------------------
+
+
+(1) javaEnabled()- used to check weather java is enabled or not
+
+    
+<script>
+let browser = navigator.javaEnabled;
+document.getElementById("demo").innerHTML = "java is enabled or not ?: " + browser;
+</script>
+
+(2) taintEnabled
+
+<script>
+let browser = navigator.taintEnabled;
+document.getElementById("demo").innerHTML = "taint is enabled or not ?: " + browser;
+</script>
