@@ -43,6 +43,7 @@ else
 
 
 prompt()- a method that is mainly used to show message but before that it takes an input of any kind like 
+always declared inside a function.
 
 
 <script>
@@ -58,7 +59,7 @@ var v=prompt("Who You Are ?");
 
 (4)
 
-open()-this method is used to display the content in a new window as like this
+open()-this method is used to display the content in a new window as like this. This is also used inside the function itself .
 
  <script>
 function msg()
@@ -71,7 +72,7 @@ function msg()
 (5)
 
 
-setTimeout()-This method in javascript is mainly used for do a particular task after given time (sec/millisecond)
+setTimeout()-This method in javascript is mainly used for do a particular task after given time .It is used outside the function in (millisecond)
 
 <script>
  function msg()

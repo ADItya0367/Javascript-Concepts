@@ -1,0 +1,44 @@
+Javacript History Object ius mainly used to show an array of all the URL'S That are visited by the User
+see how is it defined 
+
+
+METHODS OF HISTORY OBJECT
+-------------------------
+
+
+FORWARD 
+
+it mainly redirects to the next page
+
+<script>
+<button onclick="history.forward">Go Forward </button>;
+</script>
+
+
+
+
+BACK 
+
+it mainly redirects to the previous loaded page 
+
+<script>
+<button onclick="history.back">Go Back</button>
+</script>
+
+
+
+
+GO
+
+it is manly used to either go to next two page or previous of previous page .
+
+<script>
+<button onclick="history.go(2/-2)">Move by next two page or previous two page </button>
+</script>
+
+
+PROPERTIES OF HISTORY OBJECT
+----------------------------
+
+Length property- it is a property that mainly returns the length of the Url's
+
