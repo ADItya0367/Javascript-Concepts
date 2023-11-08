@@ -1,0 +1,67 @@
+EVENT HANDLING -
+
+The change in the state of the objectc is called as event 
+ in html  there are many events that mainly represents nthat some activity is performed by the user or by browser . When javascript is mainly used w
+with html means it is included in with html then uin that case Javascript mainly react over these events and this process is called event handling 
+
+Thus Javascript mainly handle events through Event Handlers 
+
+-------------------------------------------
+
+SOME HTML EVENTS AND THEIR HANDLERS 
+
+---------------------------------------
+
+MOUSE EVENTS
+
+
+event performed     handlers         description
+
+- click             onclick         when mouse is clicked on an element
+
+- mouseover         onmouseover     when the cursor of the mouse comes over the element
+
+-mouseout           onmouseout      when the cursor of mouse leaves ther element
+
+-mousedown          onmousedown     when mouse button is pressed over the element
+
+-mouseup            onmouseup       when the mouse button is released over the element 
+
+-mousemove          onmousemove     when thev mouse movement takes place
+
+-------------------------------------------------------------------------
+
+KEYBOARD EVENTS
+
+Keydown & Keyup      onkeydown & onkeyup         when the user press and then release the key
+
+-------------------------------------------------------------------------
+
+FORM EVENTS
+
+- focus      onfocus        when the user focus on an element  
+
+
+- submit     onsubmit       when the user submits the form
+
+
+- blur       onblur         when the focus is away from a form element
+
+
+- change     onchange       when the user modifies or changes the value of a form element
+
+-------------------------------------------------------------------------
+
+WINDOW/DOCUMENT EVENTS 
+
+-load       onload        when the browser finishes the loading of the page
+
+-unload     onunload      when the visitor leaves the current webpage , then browser unloads it
+
+-resize     onresize      when the visitor resize the window of the browser 
+-------------------------------------------------------------------------
+
+ALL THESE EVENTS ARE USED AS WE WERE USING IT PTREVIOUSLY BY FUNCTION CALLING
+
+
+ 
