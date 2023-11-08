@@ -1,0 +1,145 @@
+Exception handling may be defined as a process of handling the abnormal statements or conditions that may occur in a program . exceptions can be easilty handled through various handlers . For example when we divide the non zero number by zero so in that case there is an exception , so we can easily handle it.
+
+Every time whenever an abnormal condition Occurs throw function is used to throw an exception
+
+This thrown exception is being handled using try ....catch block that mainly help us to Wrap the code and to execute it anyway
+
+There are different errors due to which exceptions may occur these may be as follows
+(SRL)
+
+Syntax Error- when there is an y error in the syntax of programming language.
+
+Runtime Error- When an error occurs aty the running time of a program , it is called runtime error. The code which create runtime errors are called exceptions 
+
+Logical Errors- Errors that may occur due to the wrong logic of the code and can terminate abnormally .
+
+--------------------------------------------------------------
+
+ERROR OBJECT
+
+when an error occurs ,ikt creates and throw an error object .(you might have seen in the terminal )
+
+PROPERTIES
+
+- Name (returns an error name )
+- Message(returns an error message oin string form)
+
+
+Although error is generic constructor , then also there are some in built error types /constructors beside it.
+
+**EvalError  --global function used for evaluating js string
+**InternalError -- creates an instance when js throws an internal error
+**RangeError  --creates an instance that occurs when a numeric variable or parameter is out of its range
+**RefrenceError -- creates an instance when for error when an invalid reference is de-refrenced
+**SyntaxError -- instance is created for syntax errr that may occur while parsing nthe eval()
+**TypeError --when a variable is not a valid type then this error is occured 
+**URLError --an instance is created when invalid parameters is passed in encodeURL() or decodeURL()
+
+--------------------------------------------------------------
+
+EXCEPTION HANDLING STATEMENTS
+
+Throw Statement
+Try catch statement
+Try catch ..finally statements
+--------------------------------------------------------------
+
+JAVASCRIPT TRY CATCH 
+
+try catch block is mainly use to handle exceptions whenever an exception occurs  , try catch mainly test for all possible conditions of error that may have occured due to that.
+
+TRY{}
+in the try block mainly the code is passed which has to be tested carefully to check weather suitable action is required or not
+
+try {
+
+expression;
+} // cod eto be written
+
+catch(error)
+{
+ expression;
+
+}//code for handling the error 
+
+CATCH{}
+
+in catch statements according to the occured exceptions or errors we have to take suitable actions as well , so hence we are using the catch statement.
+
+
+<script>
+try{
+
+var a=["3","2","5","44","67"];
+document.write(a); // displays element of a
+document.write(b); //b is undefined but still trying to fetcgh the value 
+}
+catch(e)
+{
+alert("There is an error which shows ",+e.message); //handling error 
+}
+</script>
+
+
+THROW STATEMENT 
+-Used for throwing user defined errors user can define the error and throw their own custom errors . when throw is executed then statements present after it will not be executed . the control  will directly pass to the catch block
+
+TRY CATCH THROW SYNTAX
+
+try{
+
+throw exception; // user can define their own exception
+} 
+catch(error)
+{
+
+expression;
+}// code for handling the exception  
+
+EXAMPLE -
+
+<script>
+try{
+throw new Error('This is the throw Keyword'); //user defined throw statement
+}
+
+catch(e)
+{
+document.write(e.message);// this will generate an error message
+}
+</script>
+
+
+TRY CATCH FINALLY STATEMENT 
+
+try{
+expression;
+}
+catch(error)
+{
+expression;
+}
+finally{
+expression;
+} // executable code
+
+EXAMPLE 
+
+<script>
+try
+{
+var a=2;
+if(a==2)
+document.write("ok");
+}
+catch(Error)
+{
+document.write("Error Found",e.message);
+}
+finally
+{
+document.write("value of a is 2");
+}
+
+</script>
+--------------------------------------------------------------
