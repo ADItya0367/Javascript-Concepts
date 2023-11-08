@@ -1,0 +1,26 @@
+document.getElementById() - method is mainly used to get the element which is associated with specified id , and for that purpose we have to define the values of each element .
+
+
+
+For example we can do the cube of any number by specified number like this 
+
+
+
+<script>
+
+function ans()
+{
+ var a=document.getElementById("number").value;
+ alert(number*number*number);
+
+}
+</script>
+
+<form>
+enter no.
+<input type="text"Id="number"value="number"/>
+<input type="button"value="write"onclick="ans()"/>
+</form>
+
+
+
